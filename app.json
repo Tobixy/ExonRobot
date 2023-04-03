@@ -27,37 +27,32 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "13600724"
+         "value": ""
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "ee59fd28d0d065c6b7d105082c6a0ba0"
+         "value": ""
       },
       "APP_ID": {
          "description": "Same as API_ID, BUT  2nd idi",
          "required": true,
-         "value": "13600724"
+         "value": ""
       },
       "APP_HASH": {
          "description": "Same as API_HASH, but 2nd id",
          "required": true,
-         "value": "ee59fd28d0d065c6b7d105082c6a0ba0"
+         "value": ""
       },  
       "DATABASE_URL": {
          "description": "Your Postgres SQL DataBase URI, Get one from https://customer.elephantsql.com/login",
          "required": true,
-         "value": "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"
-      },  
-      "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your Postgres SQL DataBase URI, Get one from https://customer.elephantsql.com/login (DATABASE_URL)",
-         "required": true,
-         "value": "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv"
-      },
+         "value": ""
+      }, 
       "DATABASE_URL2": {
          "description": "Your one extra Mongo DataBase URI, Get one from mongodb.com",
          "required": true,
-         "value": "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://eren:eren@cluster0.yxuwg4r.mongodb.net/?retryWrites=true&w=majority"
       }, 
       "REDIS_URL": {
          "description": "Your Redis URL, Get one from redislabs.com",
@@ -72,12 +67,12 @@
       "OWNER_ID": {
          "description": "Your Telegram User ID as an integer.",
          "required": true,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "BOT_ID": {
          "description": "Your Telegram Bot ID.",
          "required": true,
-         "value": "5662485106"
+         "value": "YOUR BOT_ID"
       },
       "OWNER_USERNAME": {
          "description": "Your Telegram username without the @",
@@ -116,17 +111,17 @@
       "DEV_USERS": {
          "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from us Itself, then keep the IDs as they are and add yours",
          "required": false,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": "AHT~6SSflemqFZa5tfkKFQeiLnJUwoowWYozC3SN2ZY_aSGh83~9pItAmM4Mi40E"
+         "value": ""
       }, 
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -135,17 +130,17 @@
       "DEMONS": {
          "description": "A space separated list of user IDs who can use Gban From Your Bot",
          "required": false,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot",
          "required": false,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1452219013"
+         "value": "5667156680"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -154,12 +149,12 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://example69.herokuapp.com/"
+         "value": "https://example.herokuapp.com/"
       },
       "GENIUS_API_TOKEN": {
          "description": "Genius API Token get one from genius.com/api-client",
          "required": false,
-         "value": "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
+         "value": "rMslyaZoLcPmunSm0Fn_4nMMJjzQ6oy4kP-aVd0xIKv-g37yDZ-9FS1VEpXQ_9CB"
       },
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
@@ -169,27 +164,27 @@
       "MONGO_DB_URL": {
          "description": "Your Mongo DB URI",
          "required": true,
-         "value": "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://eren:eren@cluster0.yxuwg4r.mongodb.net/?retryWrites=true&w=majority"
       },
       "HEROKU_API_KEY": {
          "description": "Your Heroku API Key from heroku profile",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "HEROKU_APP_NAME": {
          "description": "Your Heroku APP name",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "INFOPIC": {
-         "description": "Don't change",
+         "description": "Dont change",
          "required": true,
          "value": "True"
       },
       "ARQ_API_KEY": {
          "description": "Get one @ARQRobot on Telegram",
          "required": true,
-         "value": "SNEOSP-HQSCLP-BMVHJF-FQLQTR-ARQ"
+         "value": ""
       },
       "ARQ_API_URL": {
          "description": "Leave it as it is",
